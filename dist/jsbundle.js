@@ -1,1 +1,2 @@
-var hello="Hello";
+!function(){"use strict";var e=angular.module("app",["ui.router","page1","ngAnimate"]);e.config(["$stateProvider","$urlRouterProvider","$httpProvider","$locationProvider",function(e,r,t,o){o.hashPrefix(""),e.state("/page1",{templateUrl:"page1/page1.html",controller:"PageController",url:"/page1"}),r.otherwise("/")}])}(),function(){"use strict";angular.module("page1",[])}(),function(){"use strict";angular.module("page1").controller("PageController",[])}();
+//# sourceMappingURL=jsbundle.js.map
